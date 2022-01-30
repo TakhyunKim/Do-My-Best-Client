@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "do_my_best_client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,6 +41,9 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1"
