@@ -1,8 +1,8 @@
 import { CSSProperties } from 'react';
 
-interface OnlyTextButtonProps {
+interface CategoryLabelProps {
 	text: string;
 	style?: CSSProperties;
 }
 
-export type { OnlyTextButtonProps };
+export type { CategoryLabelProps };

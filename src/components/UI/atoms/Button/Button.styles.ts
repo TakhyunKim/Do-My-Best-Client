@@ -4,6 +4,7 @@ const ButtonWrapper = styled.button`
 	width: 100px;
 	height: 20px;
 	padding: 0;
+	margin: 10px;
 
 	font-family: NanumGothic;
 	font-style: normal;
