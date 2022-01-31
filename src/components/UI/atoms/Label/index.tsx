@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { LabelProps } from './Label.types';
+import type { LabelProps } from './Label.types';
+import { LabelWrapper } from './Label.styles';
 
-const Label = ({ text }: LabelProps) => {
-	return <p>{text}</p>;
+const Label = ({ text, style }: LabelProps) => {
+	return <LabelWrapper style={style}>{text}</LabelWrapper>;
 };
 
 export default Label;
